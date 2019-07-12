@@ -24,7 +24,7 @@
 #include <string.h>
 #include "gs_peerchat.h"
 
-#ifdef WIN32
+#ifdef _WIN32
     #include <winsock.h>
     #include "winerr.h"
 
